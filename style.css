@@ -1,0 +1,376 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(202, 211, 219);
+}
+
+.box{
+    width: 1000px;
+    height: 1150px;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    left: 170px;
+}
+
+.logo-mover{
+    width: 16%;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+.poisk{
+    width: 300px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 43px;
+    left: 210px;
+}
+
+.img-poisk{
+    width: 3%;
+    position: absolute;
+    top: 50px;
+    left: 485px;
+}
+
+.img-upload{
+    width: 5%;
+    position: absolute;
+    top: 40px;
+    left: 650px;
+}
+
+.img-sing-in{
+    width: 5%;
+    position: absolute;
+    top: 40px;
+    left: 710px;
+}
+
+.img-settings{
+    width: 5%;
+    position: absolute;
+    top: 40px;
+    left: 770px;
+}
+
+.img-uz{
+    width: 5%;
+    position: absolute;
+    top: 40px;
+    left: 830px;
+}
+
+.img-ru{
+    width: 5%;
+    position: absolute;
+    top: 40px;
+    left: 890px;
+}
+
+/*Menyu*/
+.box-menu{
+    width: 1000px;
+    height: 40px;
+    background-color: rgb(0, 173, 9);
+    position: absolute;
+    top: 110px;
+}
+
+#kulgu{
+    text-decoration: none;
+    color: darkred;
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    font-family: Pecot;
+}
+
+#kino{
+    text-decoration: none;
+    color: darkred;
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 310px;
+    font-family: Pecot;
+}
+
+#tv{
+    text-decoration: none;
+    color: darkred;
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 460px;
+    font-family: Pecot;
+}
+
+#musiqa{
+    text-decoration: none;
+    color: darkred;
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 610px;
+    font-family: Pecot;
+}
+
+#sport{
+    text-decoration: none;
+    color: darkred;
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+    font-family: Pecot;
+}
+
+.a-href{
+    padding: 3px 7px 7px;
+}
+
+.a-href:hover{
+    background-color: darkgreen;
+}
+
+/*Videolar*/
+
+/*Birinchi qator*/
+.vid-bir{
+    width: 290px;
+    height: 140px;
+    position: absolute;
+    top: 100px;
+    left: 290px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.video-ikki{
+    width: 290px;
+    height: 140px;
+    position: absolute;
+    top: 100px;
+    left: -160px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.video-ikki:hover{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 95px;
+    left: -165px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.vid-nom-bir{
+    position: absolute;
+    top: 260px;
+    text-decoration: none;
+    color: darkred;
+    font-family: Pecot;
+    left: -100px;
+}
+
+.vid-bir:hover{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 98px;
+    left: 288px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.vid-nom-ikki{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    text-decoration: none;
+    font-family: Pecot;
+    color: darkred;
+}
+
+.vid-eye-bir{
+    width: 20%;
+    top: 270px;
+    position: absolute;
+}
+
+.vid-kor-soni{
+    top: 269px;
+    position: absolute;
+    left: 70px;
+    opacity: 50%;
+}
+
+.vid-eye-ikki{
+    width: 20%;
+    top: 270px;
+    position: absolute;
+    left: 470px;
+}
+
+.vid-logo-bir{
+    width: 40%;
+    top: 270px;
+    position: absolute;
+    left: 100px;
+}
+
+/* Ro`yhatdan o`tish */
+#reg-body{
+    background-color: white;
+    width: 700px;
+    height: 500px;
+}
+
+.xoshiya-bir{
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: -10px;
+    left: 340px;
+}
+
+.reg-sig-in{
+    font-size: 30px;
+    color: rgb(184, 184, 184);
+    position: absolute;
+    top: 30px;
+    left: 500px;
+}
+
+/* Ijtimoiy tarmoqlar */
+.reg-img-google{
+    width: 3%;
+    position: absolute;
+    top: 120px;
+    left: 645px;
+}
+
+.reg-img-facebook{
+    width: 3%;
+    position: absolute;
+    top: 120px;
+    left: 500px;
+}
+
+.reg-p-google{
+    text-decoration: none;
+    color: darkred;
+    top: 110px;
+    position: absolute;
+    left: 695px;
+}
+
+.reg-p-facebook{
+    text-decoration: none;
+    color: darkred;
+    top: 110px;
+    position: absolute;
+    left: 550px;
+}
+
+/* Text inputlar */
+.reg-text-email{
+    font-size: 22px;
+    position: absolute;
+    top: 240px;
+    left: 470px;
+    width: 300px;
+    height: 25px;
+    color: darkred;
+    border-radius: 15px;
+}
+
+.reg-text-parol{
+    font-size: 22px;
+    position: absolute;
+    top: 350px;
+    left: 470px;
+    width: 300px;
+    height: 25px;
+    color: darkred;
+    border-radius: 15px;
+}
+
+/* chekbox */
+.reg-checkbox{
+    position: absolute;
+    top: 430px;
+    left: 470px;
+}
+
+.reg-checkbox-text{
+    left: 500px;
+    top: 428px;
+    position: absolute;
+    color: darkred;
+}
+
+/* Tugmalar */
+.reg-button-sign{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 480px;
+    left: 470px;
+    color: darkred;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.reg-button-parol{
+    width: 165px;
+    height: 25px;
+    position: absolute;
+    top: 480px;
+    left: 610px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.reg-button-sign:hover{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    top: 470px;
+    left: 460px;
+    border-radius: 40px;
+    background-color: darkred;
+    color: white;
+    border: solid darkred
+}
+
+.reg-button-parol:hover{
+    width: 185px;
+    height: 45px;
+    position: absolute;
+    top: 470px;
+    left: 600px;
+    border-radius: 40px;
+    background-color: darkred;
+    color: white;
+    border: solid darkred;
+    transition: 1s;
+}
+
+
+@media screen and (max-width: 500px) {
+    .reg-button-parol{
+        background-color: white;
+    }
+}
